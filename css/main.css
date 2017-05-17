@@ -63,3 +63,32 @@ a {
     border-radius: 10px;
     color: #FF4649;
     background: #F3F3F3; }
+
+.menu {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 960px 1fr;
+  grid-template-columns: 1fr 960px 1fr; }
+
+.navbar {
+  border: 1px solid #FF4649;
+  background: #FF4649;
+  border-radius: 5px; }
+  .navbar ul {
+    text-transform: uppercase;
+    list-style: none; }
+    .navbar ul li {
+      display: inline-block;
+      padding: 15px;
+      border-left: 2px solid white; }
+      .navbar ul li:hover {
+        background: white;
+        color: #FF4649; }
+      .navbar ul li:first-child {
+        border: 0; }
+      .navbar ul li a {
+        text-decoration: none;
+        color: white; }
+      .navbar ul li:hover a {
+        color: #FF4649; }
